@@ -9,7 +9,7 @@ namespace MLBL
     public class Prueba
     {
         public int IdPrueba { get; set; }
-
+        public string Nombre { get; set; }
     }
 }
 
