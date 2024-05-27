@@ -12,6 +12,9 @@ namespace MLBL
         public bool ErrorParaAlan { get; set; }
         public DateTime DobleErrorParaAlan { get; set; }
         public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public int Edad { get; set; }
+        public string Telefono { get; set; }
     }
 }
 
