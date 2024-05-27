@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace MLBL
 {
+
     internal class User
     {
         public string Nombre { get; set; }
+
+        public int IdUser { get; set; }
     }
 }
