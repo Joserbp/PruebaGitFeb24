@@ -9,6 +9,8 @@ namespace MLBL
     public class Prueba
     {
         public int IdPrueba { get; set; }
+        public bool ErrorParaAlan { get; set; }
+        public DateTime DobleErrorParaAlan { get; set; }
         public string Nombre { get; set; }
     }
 }
